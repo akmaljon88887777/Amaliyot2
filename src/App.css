@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  z-index: 99 !important;
+}
+
+.App {
+
+  background: #7DDAAE url('./assets/templatemo_bg.jpg') repeat-x;
+  height: 100% !important;
+  width: 100%;
+  background-size: cover;
+}
+
+.rasm {
+  background-image: url('./assets/templatemo_header.png');
+  width: 950px;
+  height: 230px;
+  border: none !important;
+  background-size: cover;
+}
+
+.btnimg {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(234, 242, 229, 1) 50%);
+  width: 74px;
+  height: 30px;
+  border-radius: 6px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ECEEEA;
+}
+
+.btnimg2 {
+  background-image: url('./assets/templatemo_button.jpg');
+  margin-left: 22px;
+
+}
+
+.img5 {
+  background-image: url('./assets/templatemo_thumb_2.jpg');
+  background-size: cover;
+  justify-content: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and(max-width:1280px) {
+  .App1 {
+    width: 1000px !important;
+    height: 100vh;
+
+  }
+
+}
+
+@media screen and(max-width:769px) {
+  .Footer {
+    width: 100% !important;
+    height: 1000px !important;
+
+  }
+
+}
+
+@media screen and(max-width:426px) {
+  .Footer {
+    width: 100% !important;
+    height: 150vh !important;
+    background-color: red;
+    display: table;
+  }
+
+}
+@media screen and(max-width:320px) {
+  .Footer {
+    width: 100% !important;
+    height: 150vh !important;
+    background-color: red;
+    display: table;
+    margin: -20px !important;
+    display: flex;
+    justify-content: center;
+  }
+
+}
